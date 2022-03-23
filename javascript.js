@@ -20,7 +20,7 @@ navLink.forEach(n => n.addEventListener('click',linkAction));
 const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
 
-const textArray = ["PhotoShop Expert", "UI / UX Designer", "Graphics Designer", "Illustratior Expert"];
+const textArray = ["Graphics Designer",  "Photoshop Expert"];
 const typingDelay = 40;
 const erasingDelay = 40;
 const newTextDelay = 2000; // Delay between current and next text

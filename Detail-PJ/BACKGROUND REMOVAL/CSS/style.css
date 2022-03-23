@@ -1,0 +1,224 @@
+/*   Link Start    */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
+/*   Link End     */
+
+
+*{
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito';
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: #f5f5f5;
+}
+a{
+    text-decoration: none;
+}
+#navShadow{
+    box-shadow: 2px 2px 10px rgb(230 230 230);
+}
+/*title*/
+.container-fluid {
+    background: rgb(230 230 230 / 35%);
+}
+.title-details h6 a {
+    padding-right: 10px;
+    color: burlywood;
+}
+/*img details*/
+.CDTBox i {
+    font-size: 83px;
+    padding: 2rem;
+    color: #ff962d;
+}
+div#containerWraper {
+    background: #f6f6f6;
+    border-radius: 1rem;
+}
+.CDTBox {
+    padding: 1rem;
+}
+#gifTitle{
+background-image: url(../../Image/Office-At-CR.jpg);
+}
+div#gifTitledet .col-lg-6 h2 {
+    color: white;
+}
+div#gifTitledet .col-lg-6 p {
+    color: rgb(221, 220, 220);
+}
+.gif {
+    width: 100%;
+    height: 18rem;
+    background: url(../../Image/azad.gif) 0 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+i.fa-solid.fa-star {
+    color: #e99030;
+}
+.title-details img {
+    width: 60px;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+.carousel-item img {
+    border-radius: 10px;
+}
+.rate.p-4 {
+    background: rgb(230 230 230 / 35%);
+    border-radius: 5px;
+}
+.rate sup {
+    font-size: 18px;
+}
+.rate h2 {
+    text-align: center;
+}
+
+.rate button {
+    border: none;
+    background:#f59e3fd1;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+.rate button a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.rate button:hover {
+    background: #ff9b2d;
+}
+.author {
+    padding: 10px 0px;
+}
+.author span {
+    padding: 0px 5px;
+}
+.author a {
+    color: burlywood;
+    text-decoration: none;
+    background-color: transparent;
+}
+.author a:hover {
+    color: burlywood;
+}
+/*update*/
+.rateupdate {
+    background: rgb(230 230 230 / 35%);
+   border-radius: 5px;
+}
+tr {
+    font-size: 15px;
+}
+table a {
+    color: burlywood;
+}
+table a:hover{
+    color: burlywood;
+}
+table td {
+    color: #363636a8;
+}
+/*image description*/
+.imageDescription h3 {
+    border-bottom: 1px solid #00000026;
+}
+.imageDescription p {
+    font-size: 18px;
+}
+.imageDescription h4 {
+    border-bottom: 1px solid #d9d9d9;
+    padding-top: 25px;
+}
+.imageDescription h6 {
+    color: #000000a8;
+}
+/*            fOOTER             */
+/* foooter */
+#footers{
+	background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #ff962d;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+/*       fOOTER*/ 

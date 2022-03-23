@@ -183,7 +183,9 @@ body{
 	color: #ff9b2d;
 	margin-bottom: 10px;
 }
-
+.role {
+    color: #7e7e7ec9;
+}
 
 @media screen and (max-width: 800px){
 	.resume_wrapper .resume_right .resume_namerole{

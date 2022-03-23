@@ -328,8 +328,27 @@ li.nav-itm a:hover {
 }
 
 /*    Hover Section End      */
-
-
+.card-title-two {
+    padding: 15px 15px 5px;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+a.card-link.stretched-link.year {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3d3d46;
+}
+.card-title-one {
+    padding: 0px 15px;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+.card-title-one p {
+    color: #5e5e6a;
+    font-size: 15px;
+}
 /*    mediascreen     */
 @media(max-width:768px){
 
@@ -418,6 +437,22 @@ li.nav-itm a:hover {
 div#navManu {
     z-index: 10;
 }
+/*Suggest*/
+.suggestimg img {
+    width: 30rem;
+}
+.suggestDec h1 {
+    color: #5e5d5c;
+    padding: 44px 0px;
+    font-weight: bold;
+}
+.suggestDec h5 {
+    line-height: 2rem;
+    color: #979594;
+}
+
+/*Suggest*/
+
 /*    mediascreen end */
 
 /* foooter */
